@@ -43,5 +43,5 @@ services:
     name: celery-redis
     region: ohio
     plan: free # we choose a plan with persistence to ensure tasks are not lost upon restart
-    maxmemoryPolicy: lru # recommended policy for queues
-    ipAllowList: [] # only allow internal connections
+    # maxmemoryPolicy: lru # recommended policy for queues
+    # ipAllowList: [] # only allow internal connections
